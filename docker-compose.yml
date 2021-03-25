@@ -7,4 +7,4 @@ services:
     working_dir: /work
     ports:
       - 8888:8888
-    command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
