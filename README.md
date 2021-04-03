@@ -20,7 +20,7 @@ cd Desktop/LiNGAM
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/LiNGAM）
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
