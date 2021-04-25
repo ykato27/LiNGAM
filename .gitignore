@@ -1,0 +1,16 @@
+*.npy
+*.xml
+*.pyc
+*.DS_Store
+*.mat
+*.npy
+
+**/solution.py
+**/.ipynb_checkpoints/
+**/checkpoint
+**/model.data-*
+*.index
+*.meta
+
+__pycache__/
+.idea/
