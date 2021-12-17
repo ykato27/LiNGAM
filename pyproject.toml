@@ -1,0 +1,9 @@
+[tool.black]
+# 行の最大の長さはPEP8準拠
+line-length = 79
+
+[tool.isort]
+# Blackと競合しないよう設定
+profile = "black"
+# 行の最大の長さはPEP8に準拠
+line_length = 79
